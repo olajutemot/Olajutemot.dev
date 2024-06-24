@@ -1,0 +1,22 @@
+.Hero-section h1 {
+  color: rgb(131, 130, 129);
+}
+
+.hero-message {
+  position: relative;
+  font-size: 5rem;
+  width: 50%;
+  color: whitesmoke;
+}
+.hero-message::after {
+  content: " ";
+  background-color: #4d90db;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 87%;
+  left: 95%;
+}
+.Hero-section button {
+  margin-top: 2em;
+}

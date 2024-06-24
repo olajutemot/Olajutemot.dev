@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0rem;
+  color: white;
+}
+
+.navbar-title {
+  font-size: 2rem;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 75%;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+}
+#contact {
+  padding: 0.6em 1.3em;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #4d90db, #4639bc);
+}
