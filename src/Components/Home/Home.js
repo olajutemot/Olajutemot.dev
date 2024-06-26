@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="Hero-section">
       <h1>
-        I'm a{" "}
+        I'm a
         <div className="hero-message">
           FULL STACK <br /> SOFTWARE <br /> DEVELOPER
         </div>

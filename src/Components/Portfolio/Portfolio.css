@@ -1,0 +1,55 @@
+.portfolio-section {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6rem;
+}
+.outline-b,
+.outline-c {
+  border: 8px solid #4d90db;
+  border-radius: 8px;
+  width: 350px;
+  height: 230px;
+}
+.outline-b {
+  margin-right: 60px;
+}
+/* .outline-c {
+  margin-left: 40px;
+} */
+.Project {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+  height: 60vh;
+}
+.proj-details {
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.proj-image {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+.portfolio-section img {
+  width: 35%;
+  z-index: 9999;
+  position: absolute;
+  border-radius: 8px;
+}
+.image-1 {
+  right: 0px;
+  top: 0px;
+}
+.image-2 {
+  left: 30px;
+  top: 0px;
+}

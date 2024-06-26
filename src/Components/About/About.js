@@ -4,6 +4,7 @@ import "./About.css";
 const About = () => {
   return (
     <div className="About-section">
+      <div className="outline-a"></div>
       <img src="menu/Portfolio Headshot.jpg" alt="Timilehin" />
 
       <div className="About">

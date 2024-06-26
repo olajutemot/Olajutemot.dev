@@ -1,0 +1,28 @@
+.Services-section {
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.service-header {
+  text-align: center;
+}
+.Services {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 100px;
+}
+.service {
+  position: relative; /* Ensures pseudo-element is positioned correctly */
+  padding: 2rem;
+  border-radius: 8px;
+  border: 8px solid transparent;
+  background: linear-gradient(#101630, #101630) padding-box,
+    linear-gradient(to right, #4d90db, #4639bc) border-box;
+  /* border-image: linear-gradient(to right, #4d90db, #4639bc) 1; */
+  /* overflow: hidden; */
+  /* border: 2px solid red; */
+  box-shadow: -5px -5px 60px #4d8fdb60, 10px 10px 60px #4639bc60;
+}

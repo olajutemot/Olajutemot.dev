@@ -1,8 +1,12 @@
+.Nav-section {
+  border: 2px solid red;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0rem;
+  padding-top: 2rem;
   color: white;
 }
 

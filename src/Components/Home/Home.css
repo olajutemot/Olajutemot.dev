@@ -1,3 +1,6 @@
+.Hero-section {
+  border: 2px solid red;
+}
 .Hero-section h1 {
   color: rgb(131, 130, 129);
 }
@@ -5,8 +8,9 @@
 .hero-message {
   position: relative;
   font-size: 5rem;
-  width: 50%;
+  width: 70%;
   color: whitesmoke;
+  /* border: 2px solid red; */
 }
 .hero-message::after {
   content: " ";
@@ -15,7 +19,8 @@
   width: 20px;
   height: 20px;
   top: 87%;
-  left: 95%;
+  left: 82%;
+  border-radius: 50%;
 }
 .Hero-section button {
   margin-top: 2em;
