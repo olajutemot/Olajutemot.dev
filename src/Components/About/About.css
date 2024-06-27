@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 60vh;
 }
 .About-section img {

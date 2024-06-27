@@ -1,20 +1,22 @@
 .portfolio-section {
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 6rem;
 }
+.Portfolio-header {
+  text-align: center;
+}
 .outline-b,
 .outline-c {
   border: 8px solid #4d90db;
   border-radius: 8px;
-  width: 350px;
-  height: 230px;
+  width: 420px;
+  height: 260px;
 }
-.outline-b {
+/* .outline-b {
   margin-right: 60px;
-}
+} */
 /* .outline-c {
   margin-left: 40px;
 } */
@@ -22,7 +24,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  border: 2px solid red;
+
   height: 60vh;
 }
 .proj-details {
@@ -32,10 +34,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.proj-details a {
+  text-decoration: none;
+  color: whitesmoke;
+}
 .proj-image {
-  border: 2px solid red;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   width: 45%;
 }
@@ -46,10 +51,14 @@
   border-radius: 8px;
 }
 .image-1 {
-  right: 0px;
-  top: 0px;
+  right: 85px;
+  top: 60px;
 }
 .image-2 {
   left: 30px;
-  top: 0px;
+  top: 65px;
+}
+.portfolio-button {
+  margin: 0 auto;
+  width: 15%;
 }
