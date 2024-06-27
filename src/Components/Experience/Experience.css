@@ -2,3 +2,9 @@
   height: 100vh;
   border: 2px solid red;
 }
+.Experience-icons {
+  display: grid;
+
+  grid-template-columns: repeat(4, auto);
+  gap: 100px;
+}

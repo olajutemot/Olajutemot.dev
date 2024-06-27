@@ -44,10 +44,15 @@ const Contact = () => {
         </div>
       </div>
       <hr></hr>
-      <div>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-linkedin"></i>
+      <div className="Footer">
+        <h1 className="navbar-title">OlaDev</h1>
+        <p> 2024- Oladev, All rights reserved 2024</p>
+
+        <div className="Footer-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
       </div>
     </div>
   );

@@ -79,3 +79,17 @@ hr {
   width: 80%;
   margin: 0 auto;
 }
+.Footer {
+  width: 80%;
+  height: 20vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Footer-icons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  /* width: 40%; */
+}
