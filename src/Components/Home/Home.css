@@ -1,15 +1,29 @@
-/* .Hero-section {
-  border: 2px solid red;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+.Hero-section {
+  overflow: hidden;
+}
+
 .Hero-section h1 {
   color: rgb(131, 130, 129);
 }
-
+.Hero-section::after {
+  content: "DEVELOPER";
+  position: absolute;
+  font-family: "Cinzel", serif;
+  color: rgba(245, 245, 245, 0.023);
+  transform: rotate(-25deg);
+  font-size: 15rem;
+  font-weight: 800;
+  z-index: -1;
+  top: 27%;
+  left: -5%;
+}
 .hero-message {
   position: relative;
   font-size: 5rem;
   width: 70%;
   color: whitesmoke;
+  font-family: "Cinzel", serif;
   /* border: 2px solid red; */
 }
 .hero-message::after {
