@@ -18,7 +18,8 @@ button {
   background-image: linear-gradient(to right, #4d90db, #4639bc);
 }
 .button2 {
-  border: 3px solid;
-  border-image: linear-gradient(to right, #4d90db, #4639bc) 1;
-  background-color: #101630;
+  border: 3px solid transparent;
+  /* border-image: linear-gradient(to right, #4d90db, #4639bc) 1; */
+  background: linear-gradient(#101630, #101630) padding-box,
+    linear-gradient(to right, #4d90db, #4639bc) border-box;
 }

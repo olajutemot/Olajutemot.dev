@@ -21,8 +21,18 @@
   border: 8px solid transparent;
   background: linear-gradient(#101630, #101630) padding-box,
     linear-gradient(to right, #4d90db, #4639bc) border-box;
-  /* border-image: linear-gradient(to right, #4d90db, #4639bc) 1; */
-  /* overflow: hidden; */
-  /* border: 2px solid red; */
   box-shadow: -5px -5px 60px #4d8fdb60, 10px 10px 60px #4639bc60;
+}
+.service dir {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.service i {
+  font-size: 3rem;
+  background-color: whitesmoke;
+  border-radius: 30%;
+  padding: 1rem;
 }

@@ -8,7 +8,7 @@ const Service = () => {
       <div className="Services">
         <div className="service">
           <dir>
-            <i class="fa-solid fa-code"></i>
+            <i class="fa-brands fa-dev"></i>
             <h2>Website Development</h2>
           </dir>
           <p>
@@ -20,8 +20,8 @@ const Service = () => {
         </div>
         <div className="service">
           <dir>
-            <i class="fa-solid fa-code"></i>
-            <h2>Website Development</h2>
+            <i class="fa-solid fa-mobile"></i>
+            <h2>Mobile App Development</h2>
           </dir>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -32,8 +32,8 @@ const Service = () => {
         </div>
         <div className="service">
           <dir>
-            <i class="fa-solid fa-code"></i>
-            <h2>Website Development</h2>
+            <i class="fa-solid fa-desktop"></i>
+            <h2>Desktop App Development</h2>
           </dir>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -44,8 +44,8 @@ const Service = () => {
         </div>
         <div className="service">
           <dir>
-            <i class="fa-solid fa-code"></i>
-            <h2>Website Development</h2>
+            <i class="fa-brands fa-wordpress"></i>
+            <h2>WordPress Websites </h2>
           </dir>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
