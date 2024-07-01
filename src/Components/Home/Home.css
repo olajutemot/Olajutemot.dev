@@ -71,3 +71,50 @@
     font-size: 1.5rem;
   }
 } */
+/* 2xl */
+@media (max-width: 1536px) {
+  .Hero-section::after {
+    font-size: 15rem;
+    font-weight: 800;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .Hero-section::after {
+    font-size: 10rem;
+    font-weight: 800;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .Hero-section::after {
+    font-size: 8rem;
+    font-weight: 800;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .Hero-section::after {
+    font-size: 5rem;
+    font-weight: 800;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .Hero-section::after {
+    font-size: 4rem;
+    font-weight: 800;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .Hero-section::after {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+}

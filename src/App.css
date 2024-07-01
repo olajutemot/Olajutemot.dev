@@ -1,3 +1,9 @@
+.container {
+  max-width: 1536px;
+  border: 2px solid red;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
 .App {
   width: 80%;
   margin: 0 auto;
@@ -22,4 +28,45 @@ button {
   /* border-image: linear-gradient(to right, #4d90db, #4639bc) 1; */
   background: linear-gradient(#101630, #101630) padding-box,
     linear-gradient(to right, #4d90db, #4639bc) border-box;
+}
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
 }

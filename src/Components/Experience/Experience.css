@@ -27,3 +27,44 @@
 .Experience-icon p {
   text-align: center;
 }
+
+/* 2xl */
+@media (max-width: 1536px) {
+}
+
+/* xl */
+@media (max-width: 1280px) {
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .Experience-icons {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 100px;
+  }
+  .Experience-icon img {
+    width: 50px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .Experience-icons {
+    gap: 50px;
+  }
+  .Experience-icon img {
+    width: 30px;
+  }
+  .Experience-icon p {
+    font-size: 1rem;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+}
+
+/* xs */
+@media (max-width: 475px) {
+}
