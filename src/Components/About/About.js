@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="About-container">
+    <div className="About-container" id="about">
       <div className="About-section">
         <div className="outline-a"></div>
         <img src="menu/Portfolio Headshot.jpg" alt="Timilehin" />
@@ -17,8 +17,16 @@ const About = () => {
             and scrambl
           </p>
           <div className="buttons">
-            <button className="button1">Hire me</button>
-            <button className="button2">Resume</button>
+            <a href="#upwork" target="_b">
+              <button className="button1">Hire me</button>
+            </a>
+
+            <a
+              href="https://docs.google.com/document/d/1Qr93NMRdaiEXkNffimNsAe4TDVsc3UkB-OlbcrLAN_A/edit?usp=sharing"
+              target="_b"
+            >
+              <button className="button2">Resume</button>
+            </a>
           </div>
         </div>
       </div>

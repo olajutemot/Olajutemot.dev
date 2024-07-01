@@ -46,3 +46,46 @@
   align-items: center;
   gap: 2rem;
 }
+.buttons a {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .About-section {
+    display: block;
+    /* align-items: center;
+    gap: 2rem; */
+  }
+
+  .About-section img {
+    width: 50%;
+    height: 250px;
+    top: 0;
+  }
+
+  .About {
+    width: 90%;
+  }
+
+  .outline-a {
+    width: 50%;
+    height: 250px;
+  }
+}
+.buttons {
+  display: block;
+}
+/* @media (min-width: 1200px) {
+  .About-section {
+    gap: 5rem;
+  }
+
+  .About-section img {
+    width: 400px;
+  }
+
+  .outline-a {
+    width: 400px;
+    height: 550px;
+  }
+} */

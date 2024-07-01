@@ -29,8 +29,39 @@
   color: white;
   text-decoration: none;
 }
+.navbar-links a:hover,
+.navbar-links a:active {
+  color: #4d90db;
+}
 #contact {
   padding: 0.6em 1.3em;
   border-radius: 5px;
   background-image: linear-gradient(to right, #4d90db, #4639bc);
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .navbar-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* @media (min-width: 1200px) {
+  .navbar-title {
+    font-size: 2.5rem;
+  }
+
+  .navbar-links {
+    gap: 2rem;
+    font-size: 1.2rem;
+  }
+} */

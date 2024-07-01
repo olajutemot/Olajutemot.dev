@@ -33,9 +33,41 @@
   width: 20px;
   height: 20px;
   top: 87%;
-  left: 60%;
+  left: 510px;
   border-radius: 50%;
 }
 .Hero-section button {
   margin-top: 2em;
 }
+
+@media (max-width: 768px) {
+  .Hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-message {
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .Hero-section button {
+    padding: 1em 2em;
+    font-size: 1rem;
+  }
+}
+
+/* @media (min-width: 1200px) {
+  .Hero-section h1 {
+    font-size: 3rem;
+  }
+
+  .hero-message {
+    font-size: 6rem;
+    width: 80%;
+  }
+
+  .Hero-section button {
+    padding: 2em 5em;
+    font-size: 1.5rem;
+  }
+} */

@@ -8,6 +8,8 @@
 
 html {
   background-color: #101630;
+  overflow-x: hidden;
+  /* background-color: #25060b; */
 }
 h2 {
   color: whitesmoke;
