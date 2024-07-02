@@ -1,7 +1,5 @@
 .Services-section {
-  width: 90%;
   margin: 2rem auto;
-
   display: flex;
   flex-direction: column;
   gap: 5rem;
@@ -48,12 +46,24 @@
 /* lg */
 @media (max-width: 1024px) {
   .Services {
-    display: block;
+    grid-template-columns: repeat(2, auto);
+    gap: 50px;
+  }
+  .service dir h2,
+  .service i {
+    font-size: 1.5rem;
   }
 }
 
 /* md */
 @media (max-width: 768px) {
+  .Services {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 /* sm */

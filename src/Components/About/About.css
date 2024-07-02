@@ -1,5 +1,5 @@
 .About-container {
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,8 +11,7 @@
   align-items: center;
   gap: 3rem;
   margin-top: 30px;
-
-  height: 80vh;
+  height: 80%;
 }
 .About-section img {
   width: 350px;
@@ -20,13 +19,13 @@
   position: absolute;
   border-radius: 8px;
   /* left: -30px; */
-  top: 0px;
+  bottom: 40px;
   /* border: 2px solid red; */
 }
 
 .About {
   width: 55%;
-  height: 60vh;
+  height: 60%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -45,46 +44,56 @@
   align-items: center;
   gap: 2rem;
 }
-.buttons a {
-  cursor: pointer;
+/* ========================Responsive styling begins=================== */
+/* 2xl */
+@media (max-width: 1536px) {
 }
 
+/* xl */
+@media (max-width: 1280px) {
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .About-section img {
+    width: 250px;
+    bottom: 30px;
+    left: 15px;
+  }
+  .outline-a {
+    width: 250px;
+    height: 350px;
+  }
+}
+
+/* md */
 @media (max-width: 768px) {
   .About-section {
-    display: block;
-    /* align-items: center;
-    gap: 2rem; */
+    display: flex;
+    flex-direction: column;
   }
-
-  .About-section img {
-    width: 50%;
-    height: 250px;
-    top: 0;
-  }
-
   .About {
     width: 90%;
   }
-
-  .outline-a {
-    width: 50%;
-    height: 250px;
-  }
-}
-.buttons {
-  display: block;
-}
-/* @media (min-width: 1200px) {
-  .About-section {
-    gap: 5rem;
-  }
-
   .About-section img {
-    width: 400px;
+    width: 350px;
+    position: static;
+    border-radius: 50%;
+    /* bottom: 30px;
+    left: 15px; */
   }
-
   .outline-a {
-    width: 400px;
-    height: 550px;
+    display: none;
   }
-} */
+  /* .buttons {
+    display: block;
+  } */
+}
+
+/* sm */
+@media (max-width: 640px) {
+}
+
+/* xs */
+@media (max-width: 475px) {
+}

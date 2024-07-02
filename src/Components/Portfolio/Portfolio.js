@@ -9,6 +9,11 @@ const Portfolio = () => {
         <div className="proj-details">
           <h3>PROJECT 1</h3>
           <h2>Desktop Game app</h2>
+          <img
+            src="menu/project tile 1.png"
+            alt="project1"
+            className="image-1"
+          />
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -43,6 +48,11 @@ const Portfolio = () => {
         <div className="proj-details">
           <h3>PROJECT 1</h3>
           <h2>Desktop Game app</h2>
+          <img
+            src="menu/project tile 1.png"
+            alt="project1"
+            className="image-1"
+          />
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -60,6 +70,11 @@ const Portfolio = () => {
         <div className="proj-details">
           <h3>PROJECT 1</h3>
           <h2>Desktop Game app</h2>
+          <img
+            src="menu/project tile 1.png"
+            alt="project1"
+            className="image-1"
+          />
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -93,6 +108,11 @@ const Portfolio = () => {
         <div className="proj-details">
           <h3>PROJECT 1</h3>
           <h2>Desktop Game app</h2>
+          <img
+            src="menu/project tile 1.png"
+            alt="project1"
+            className="image-1"
+          />
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text

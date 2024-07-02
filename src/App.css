@@ -1,8 +1,9 @@
 .container {
   max-width: 1536px;
-  border: 2px solid red;
-  /* margin-left: auto;
-  margin-right: auto; */
+  width: 100%;
+  /* border: 2px solid red; */
+  margin-left: auto;
+  margin-right: auto;
 }
 .App {
   width: 80%;
@@ -13,12 +14,6 @@
   gap: 6rem;
 }
 
-button {
-  padding: 1.5em 4em;
-  font-size: 1.2rem;
-  color: whitesmoke;
-  border-radius: 8px;
-}
 .button1 {
   border: 0;
   background-image: linear-gradient(to right, #4d90db, #4639bc);
@@ -38,15 +33,23 @@ button {
 
 /* xl */
 @media (max-width: 1280px) {
-  .container {
-    max-width: 1024px;
+  .App {
+    width: 90%;
+    /* border: 2px solid red; */
   }
+  /* .container {
+    max-width: 1024px;
+  } */
 }
 
 /* lg */
 @media (max-width: 1024px) {
-  .container {
+  /* .container {
     max-width: 768px;
+  } */
+  .App {
+    width: 90%;
+    /* border: 2px solid red; */
   }
 }
 

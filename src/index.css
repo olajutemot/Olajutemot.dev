@@ -8,7 +8,7 @@
 
 html {
   background-color: #101630;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /* background-color: #25060b; */
 }
 h2 {
@@ -23,4 +23,80 @@ p {
   font-size: 1.3rem;
   color: #95999d;
   font-family: "Inter", sans-serif;
+}
+button {
+  padding: 1.5em 4em;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* ========================Responsive styling begins=================== */
+/* 2xl */
+@media (max-width: 1536px) {
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  button {
+    padding: 1.5em 4em;
+    font-size: 1rem;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  button {
+    padding: 1.5em 4em;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 830px) {
+  button {
+    padding: 1em 3.5em;
+    font-size: 0.8rem;
+  }
+}
+/* md */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2.3rem;
+  }
+  h3 {
+    font-size: 2.3rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+  button {
+    padding: 1.5em 4em;
+    font-size: 1rem;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+}
+
+/* xs */
+@media (max-width: 475px) {
 }
