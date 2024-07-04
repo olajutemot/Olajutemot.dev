@@ -10,6 +10,9 @@
   height: 100%;
   border-radius: 150px 150px 0 0;
   background: linear-gradient(45deg, #4639bc, #4d90db);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 
   /* overflow: hidden; */
 }
@@ -36,9 +39,12 @@
   padding: 1rem;
   border-radius: 8px;
 }
+#tablet,
+#mobile {
+  display: none;
+}
 .Contact-container {
   width: 80%;
-  /* border: 2px solid red; */
   margin: 0 auto;
   height: 70%;
   display: flex;
@@ -60,6 +66,9 @@
 .Contact-details h4 {
   color: #ffffff;
   font-size: 2rem;
+}
+#mobile {
+  display: none;
 }
 .Contacts {
   margin-top: 2rem;
@@ -101,7 +110,7 @@ textarea {
 }
 
 #Submit {
-  width: 40%;
+  width: 50%;
   padding: 0.5em 2em;
   font-size: 1.2rem;
   margin-top: 0.5rem;
@@ -118,9 +127,100 @@ hr {
   justify-content: space-between;
   align-items: center;
 }
+.Footer p {
+  font-size: 0.5rem;
+}
 .Footer-icons {
   display: flex;
   gap: 1rem;
   justify-content: flex-end;
   /* width: 40%; */
+}
+/* ========================Responsive styling begins=================== */
+/* 2xl */
+@media (max-width: 1536px) {
+}
+
+/* xl */
+@media (max-width: 1280px) {
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  #Submit {
+    /* width: auto; */
+    font-size: 0.8rem;
+  }
+
+  .contact-section::before,
+  .contact-section::after {
+    display: none;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .contact-section {
+    border-radius: 0;
+    z-index: -1;
+  }
+  .Contact-container,
+  hr,
+  .Footer {
+    width: 90%;
+  }
+  #tablet {
+    display: block;
+  }
+  #Location {
+    display: none;
+  }
+  .Footer-icons {
+    display: none;
+  }
+  .Contacts {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Contact-details dir p {
+    display: none;
+  }
+  .Contact-details h4 {
+    font-size: 1.5rem;
+  }
+  .Contact-details p {
+    font-size: 1rem;
+  }
+  .Contact-form {
+    height: 40%;
+    width: 45%;
+  }
+}
+
+/* sm */
+@media (max-width: 520px) {
+  .Contact-details {
+    width: 100%;
+  }
+  #mobile {
+    display: block;
+    height: 50%;
+    width: 100%;
+  }
+  .Contact-form {
+    display: none;
+  }
+
+  .Contact-container {
+    margin: 0 auto;
+    height: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
 }

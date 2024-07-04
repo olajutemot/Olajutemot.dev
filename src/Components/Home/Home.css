@@ -24,6 +24,7 @@
   width: 70%;
   color: whitesmoke;
   font-family: "Cinzel", serif;
+  z-index: -1;
   /* border: 2px solid red; */
 }
 .hero-message::after {
@@ -86,7 +87,10 @@
 /* xs */
 @media (max-width: 475px) {
   .Hero-section::after {
-    font-size: 2rem;
-    font-weight: 800;
+    display: none;
+  }
+
+  .hero-message {
+    width: 100%;
   }
 }

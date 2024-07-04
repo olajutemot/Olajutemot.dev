@@ -99,4 +99,9 @@ button {
 
 /* xs */
 @media (max-width: 475px) {
+  #mobile-button,
+  button {
+    display: block;
+    width: 100%;
+  }
 }

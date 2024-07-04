@@ -126,7 +126,9 @@ const Portfolio = () => {
           </a>
         </div>
       </div>
-      <button className="button1 portfolio-button">View all</button>
+      <button className="button1 portfolio-button" id="mobile-button">
+        View all
+      </button>
     </div>
   );
 };

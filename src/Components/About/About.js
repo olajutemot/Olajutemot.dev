@@ -17,15 +17,16 @@ const About = () => {
             and scrambl
           </p>
           <div className="buttons">
-            <a href="#upwork" target="_b">
+            <a href="#upwork" target="_b" id="mobile-button">
               <button className="button1">Hire me</button>
             </a>
 
             <a
               href="https://docs.google.com/document/d/1Qr93NMRdaiEXkNffimNsAe4TDVsc3UkB-OlbcrLAN_A/edit?usp=sharing"
               target="_b"
+              id="mobile-button"
             >
-              <button className="button2">Resume</button>
+              <button className="button2 ">Resume</button>
             </a>
           </div>
         </div>

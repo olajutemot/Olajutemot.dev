@@ -6,6 +6,21 @@ const Contact = () => {
       <div className="contact-section" id="contact">
         <h2 className="Contact-header">Contact</h2>
         <div className="Contact-container">
+          <div className="Contact-form" id="mobile">
+            <form>
+              <input type="text" placeholder="Name" id="Name" />
+              <input type="email" placeholder="Email" id="Email" />
+              <textarea
+                id="Message"
+                name="Message"
+                rows="4"
+                cols="30"
+                placeholder="Message."
+              ></textarea>
+
+              <input type="submit" value="Send" id="Submit" />
+            </form>
+          </div>
           <div className="Contact-details">
             <h4>Drop Me a Message</h4>
             <p>
@@ -23,9 +38,13 @@ const Contact = () => {
                 <p>olajutemot@gmail.com</p>
               </dir>
               <dir>
-                <i class="fa-solid fa-location-dot"></i>
+                <i class="fa-solid fa-location-dot" id="Location"></i>
                 <p>Palm groove, Ikeja Lagos</p>
               </dir>
+
+              <i class="fa-brands fa-facebook" id="tablet"></i>
+              <i class="fa-brands fa-instagram " id="tablet"></i>
+              <i class="fa-brands fa-linkedin" id="tablet"></i>
             </div>
           </div>
           <div className="Contact-form">

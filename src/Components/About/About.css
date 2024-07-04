@@ -44,6 +44,9 @@
   align-items: center;
   gap: 2rem;
 }
+.buttons a {
+  text-decoration: none;
+}
 /* ========================Responsive styling begins=================== */
 /* 2xl */
 @media (max-width: 1536px) {
@@ -71,6 +74,7 @@
   .About-section {
     display: flex;
     flex-direction: column;
+    z-index: -1;
   }
   .About {
     width: 90%;
@@ -79,6 +83,7 @@
     width: 350px;
     position: static;
     border-radius: 50%;
+
     /* bottom: 30px;
     left: 15px; */
   }
@@ -96,4 +101,8 @@
 
 /* xs */
 @media (max-width: 475px) {
+  .buttons {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }

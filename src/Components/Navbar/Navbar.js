@@ -7,37 +7,43 @@ const Navbar = () => {
   // const [active, setActive] = useState(false);
 
   return (
-    <div className="container">
-      <nav>
-        <a href="/" className="title">
-          OlaDev
-        </a>
-        <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <ul className={menuOpen ? "open" : ""}>
-          <li>
-            <a href="#about">About Me</a>
-          </li>
-          <li>
-            <a href="#services">Services</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="#contact" id="contact">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav>
+      <a href="/" className="title">
+        OlaDev
+      </a>
+      <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul className={menuOpen ? "open" : ""}>
+        <li>
+          <a href="#about" onClick={() => setMenuOpen(!menuOpen)}>
+            About Me
+          </a>
+        </li>
+        <li>
+          <a href="#services" onClick={() => setMenuOpen(!menuOpen)}>
+            Services
+          </a>
+        </li>
+        <li>
+          <a href="#experience" onClick={() => setMenuOpen(!menuOpen)}>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href="#portfolio" onClick={() => setMenuOpen(!menuOpen)}>
+            Portfolio
+          </a>
+        </li>
+        <li>
+          <a href="#contact" onClick={() => setMenuOpen(!menuOpen)}>
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 };
 export default Navbar;

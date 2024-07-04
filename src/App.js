@@ -12,15 +12,8 @@ import "./App.css";
 function App() {
   return (
     <div className="Main-container">
+      <Navbar />
       <div className="App">
-        <Navbar />
-        {/* <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/" element={<Experience />} />
-        </Routes> */}
         <Home />
         <About />
         <Portfolio />
