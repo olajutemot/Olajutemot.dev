@@ -12,6 +12,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 6rem;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .button1 {

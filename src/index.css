@@ -30,6 +30,29 @@ button {
   color: whitesmoke;
   border-radius: 8px;
   cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+/* ========================Animation styling begins=================== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 /* ========================Responsive styling begins=================== */
 /* 2xl */

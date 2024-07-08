@@ -47,7 +47,7 @@
 .proj-image img {
   width: 80%;
   height: 90%;
-  z-index: 9999;
+
   position: absolute;
   border-radius: 8px;
 }

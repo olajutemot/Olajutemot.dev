@@ -12,15 +12,16 @@
   gap: 3rem;
   margin-top: 30px;
   height: 80%;
+  animation: fadeIn 1s ease-in-out;
 }
 .About-section img {
   width: 350px;
-  z-index: 9999;
+
   position: absolute;
   border-radius: 8px;
-  /* left: -30px; */
+
   bottom: 40px;
-  /* border: 2px solid red; */
+  animation: slideIn 1.5s ease-in-out;
 }
 
 .About {
@@ -29,6 +30,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .outline-a {
@@ -37,6 +39,7 @@
   width: 350px;
   height: 500px;
   margin-left: 40px;
+  animation: slideIn 2s ease-in-out;
 }
 .buttons {
   display: flex;
@@ -74,7 +77,6 @@
   .About-section {
     display: flex;
     flex-direction: column;
-    z-index: -1;
   }
   .About {
     width: 90%;

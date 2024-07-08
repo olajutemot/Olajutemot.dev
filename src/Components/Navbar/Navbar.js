@@ -42,6 +42,11 @@ const Navbar = () => {
             Contact
           </a>
         </li>
+        <li>
+          <a href="#contact" onClick={() => setMenuOpen(!menuOpen)}>
+            Visit my Blog
+          </a>
+        </li>
       </ul>
     </nav>
   );

@@ -1,6 +1,7 @@
 .contact-section-wrapper {
   overflow: hidden;
   padding-top: 7.5rem;
+
   /* border-radius: 150px 150px 0 0; */
 }
 
@@ -114,6 +115,11 @@ textarea {
   padding: 0.5em 2em;
   font-size: 1.2rem;
   margin-top: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+#Submit:hover {
+  transform: scale(1.1);
 }
 hr {
   width: 80%;
@@ -162,7 +168,6 @@ hr {
 @media (max-width: 768px) {
   .contact-section {
     border-radius: 0;
-    z-index: -1;
   }
   .Contact-container,
   hr,
